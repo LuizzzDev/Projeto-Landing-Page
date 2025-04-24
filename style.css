@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    font-family: "inter";;
+
+}
+
+#logo
+{
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    color: white;
+    background-image: url(Imagens/imagem-fundosuper.svg);
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.menuinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulo-video{
+    color: #247BA0;
+    margin-top: 50px;
+   
+}
+
+
+
+
+#textovideo{
+    color: #383838;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#titulo-carrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+
+    
+
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.card{
+    margin-left: 50px;
+    
+}
+
+#Samantha{
+    display: none;
+}
+
+#setaEsquerda{
+    display: none;
+    margin-top: 55px;
+}
+
+.seta{
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+
+}
+
+#formulário{
+    text-align: center;
+    
+
+
+}
+
+#título-formulário{
+    color: #383838;
+    font-size: 25px;
+    margin: 25px;
+    
+    
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 20px;
+
+
+}
+
+button{
+    background-color: #247BA0;
+    color: white;
+    width: 250px;
+    height: 40px;
+    top: 2028px;
+    left: 570px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+    
+}
+
+button:hover{
+    background-color: #1e6b8b;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #1b4152 ; 
+    transition: 0.5s;
+    
+
+}
+
+
+
+
